@@ -2,3 +2,57 @@ p{
     color: blue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+a:link{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    opacity: 0.7;
+}
+a:visited{
+    color: red;
+}
+/* article p span this selectes any span inside p which is in the article*/
+/* selects any <p> that comes directly after a <ul>, which comes directly after a
+
+n <h1>  
+h1 + ul + p {
+}
+*/
+.outer{
+    border: solid 5px black;
+}
+.box{
+    width: calc(90%-10px);
+    transform: rotate(0.9turn);/*one turn means full circle*/
+    transition: transform 2s;
+}
+body{
+    background-color: pink;
+}
+@media(width>=30em){
+    body{
+        background-color: blue;
+    }
+}
+/*media queries are used to add conditional logic 
+here if the width of the borwser parent is greater
+than or equals to 30em then the color of background
+changes to blue like blue in computer screen and
+pink in phone screen*/
+/*1em=16px so 2em=2*16px=32px*/
+/* In 4-value shorthands like padding and margin, the values are applied
+   in the order top, right, bottom, left (clockwise from the top). There are also other
+   shorthand types, for example 2-value shorthands, which set padding/margin
+   for top/bottom, then left/right */
+   /*background: red url("bg-graphic.png") 10px 10px repeat-x fixed;
+is equivalent to these five lines:
+
+css
+
+Copy
+background-color: red;
+background-image: url("bg-graphic.png");
+background-position: 10px 10px;
+background-repeat: repeat-x;
+background-attachment: fixed;*/
