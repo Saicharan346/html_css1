@@ -1,0 +1,53 @@
+html{
+    background-color: lightblue;
+}
+body{
+    font: 1.2em/1.5 system-ui; /* size   line-height  font-family*/
+    padding: 20px;
+    width: 500px;
+    background-color: #efefef;
+    margin: 0 auto 0 auto;
+}
+ul{
+    background-color: white;
+    border: 5px solid purple;
+    padding:30px;
+    border-radius: 20px;
+    
+}
+h1{
+    color:darkslategrey;
+    border-bottom: 10px dotted purple;
+    font-size: 2rem;
+}
+h2{
+    font-style: italic;
+    font-size: 1.5rem;
+}
+/* 1rem = 16px
+ 3rem = 48px*/
+/*3rem = 3 × root font-size*/
+div{
+    color: darkslategrey;
+    font-weight: bold;
+}
+a:link{
+    color: green;
+}
+a:hover{
+    color: darkgreen;
+    text-decoration: none;
+    
+}
+a:focus{
+    text-decoration: none;
+}
+a:visited{
+    color:blue;
+
+}
+/*a:focus is a CSS pseudo-class that styles a link when it is focused.
+
+In simple words:
+
+a:focus works when the <a> tag is selected by keyboard or programmatically.*/
